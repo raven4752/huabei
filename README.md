@@ -31,6 +31,7 @@ FC层为两层Relu全连接层。用10折验证训练模型的时候对模型结
 1. [魔镜杯第7的解决方案](https://qrfaction.github.io/2018/07/25/%E9%AD%94%E9%95%9C%E6%9D%AF%E6%AF%94%E8%B5%9B%E7%AD%94%E8%BE%A9PPT/)
 2. [github上开源的语义匹配模型库](https://github.com/faneshion/MatchZoo)
 3. [句子对建模的综述](https://arxiv.org/abs/1806.04330)
+4. [stanford一个数据库和大量模型的性能](https://nlp.stanford.edu/projects/snli/)
 ## 个人感受
 1. 在处理口语化的短文本时， 字级别向量比词级别可能更好
 2. 时间维度上的MaxPooling比Attention更适合这个问题，KMaxPooling没有显著优于MaxPooling和AveragePooling。
