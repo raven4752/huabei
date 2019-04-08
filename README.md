@@ -7,8 +7,8 @@
 
 - README.md 说明文档
 - input/ 存放输入的文件夹    
-  - data_tr.csv,data_te.csv (训练和测试数据，考虑到版权没有放出，请去[官网](https://dc.cloud.alipay.com/index#/topic/intro?id=3)下载，本地要求格式为id,label,sent1,sent2
-  - w2v.csv 用到的词向量，格式是第一列为词，其余列为数字，英文逗号分割
+  - data_tr.csv,data_te.csv (训练和测试数据，请去[官网](https://dc.cloud.alipay.com/index#/topic/intro?id=3)下载，本地要求格式为id,label,sent1,sent2
+  - w2v.csv 用到的词向量，格式是第一列为词，其余列为数字，英文逗号分割，可以用[这个项目](https://github.com/Embedding/Chinese-Word-Vectors)提供的这个[词向量](https://pan.baidu.com/s/1DjIGENlhRbsVyHW-caRePg)，解压后重命名为w2v.csv。
 - input_online.py 模拟线上训练输入环境
 - input_predict.py 模拟线上测试环境
 - ensemble.py 集成训练的文件
